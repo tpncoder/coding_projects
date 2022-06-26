@@ -13,12 +13,17 @@ class calculator
 			cout << "Enter first no.: ";
 			cin >> num1;
 			
-			cout << "Not required for Root and Rounding\n";
-			cout << "Enter second no.: ";
+			cout << "Not required for Root and Rounding\n"
+			     << "Enter second no.: ";
 			cin >> num2;
 
 			cout << "Enter operation: \n";
-			cout << " 1. Addition\n 2. Subtraction\n 3. Multiplication\n 4. Division\n 5. Other \n";
+			cout 
+				<< "1. Addition\n"
+				<< "2. Subtraction\n"
+				<< "3. Multiplication\n"
+				<< "4. Division\n"
+				<< "5. Other\n";
 			cout << ">>> ";
 			cin >> operation;
 		};
