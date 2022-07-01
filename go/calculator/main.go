@@ -12,6 +12,7 @@ var(
 	result float64
 )
 
+// userInput function   
 func userInput() {
 	fmt.Print("Enter the first no. : ")
 	fmt.Scanln(&firstNUM)
@@ -24,7 +25,9 @@ func userInput() {
 	fmt.Scanln(&operation)
 }
 
+// calcution function    
 func calcution() {
+
 	if operation == "1" || operation == "Addition" {
 		result =firstNUM + secondNUM
 		SResult := fmt.Sprintf("%v", result)
@@ -76,6 +79,7 @@ func calcution() {
 	}
 }
 
+// main function    
 func main() {
 	userInput()
 	calcution()
