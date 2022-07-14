@@ -12,6 +12,7 @@ A few coding projects of mine
 + [Terminal Calculator (Python)](https://github.com/tpncoder/coding_projects/tree/main/python/terminal_calculator)
 + [Terminal Calculator (Golang)](https://github.com/tpncoder/coding_projects/blob/main/go/calculator)
 + [ID-Checker (Golang)](https://github.com/tpncoder/coding_projects/blob/main/go/id-checker)
++ [Better-Calculator (Golang)](https://github.com/tpncoder/coding_projects/tree/main/go/complex-calculator)
 
 ## Languages to be probably added in the future
 + Rust
